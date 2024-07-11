@@ -3,8 +3,7 @@ def  custom_write(file_name, strings):
     num_string_2 = []
     num_ = 0
     for i in strings:
-        num_2 = 1
-        num_ += num_2
+        num_ += 1
         num_string.append(num_)
         open_file_2 = open(file_name, 'a', encoding='utf')
         num_string.append(open_file_2.tell())
